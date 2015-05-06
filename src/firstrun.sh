@@ -15,6 +15,7 @@ sleep 1s
 else
 echo "no build files in script area, copying default, not compiling, restart container"
 cp /root/scripts/*.sh /Build-Scripts/
+chmod +x /Build-Scripts/*.sh
 fi
 
 exec echo "blah blah blah"
