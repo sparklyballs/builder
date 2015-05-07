@@ -1,4 +1,4 @@
-FROM sparklyballs/build-box
+FROM sparklyballs/isengard-builder
 
 # Add local files
 ADD src/ /root/
